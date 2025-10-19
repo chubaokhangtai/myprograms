@@ -4,12 +4,12 @@
 
 int main()
 {
-  std::string name;
-  std::cout << "What is your name? ";
-  getline (std::cin, name);
-  std::cout << "Hello, " << name << "!\n";
-  
-  std::cout << "\nPress Enter to exit...";
-  std::cin.get();
-  return 0;
+	std::string name;
+	std::cout << "What is your name? ";
+	getline (std::cin, name);
+	std::cout << "Hello, " << name << "!\n";
+	
+	std::wcout << L"\nPress Enter to exit...";
+	std::wcin.get();
+	return 0;
 }
